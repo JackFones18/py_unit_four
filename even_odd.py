@@ -5,14 +5,16 @@ def even_or_odd(number):
     :param number: could be any positive or negative integer
     :return: either "x is an even number" or "x is an odd number"
     """
-    pass
+    if number%2==0:
+        return("number is even")
+    else:
+        return("number is odd")
 
 
 def main():
-    # First, make sure to delete the word "pass" then get input from the user.
-    # They should type in a number, make sure to convert it to an int
-    # Next, call the even_or_odd function, and make sure to pass the user's number as a parameter.
-    pass
+    thingy = float(input("number: "))
+    print(even_or_odd(thingy))
+
 
 
 if __name__ == '__main__':
