@@ -10,15 +10,15 @@ def who_wins(user, computer):
         return "The computer wins"
 
 def get_choices(choice):
-    if choice == 1:
-        return "rock"
-    elif choice == 2:
-        return "paper"
+        if choice == 1:
+            return "rock"
+        elif choice == 2:
+            return "paper"
 
-    elif choice == 3:
-        return"scissors"
-    else:
-        return "invalid. do it right child"
+        elif choice == 3:
+            return"scissors"
+        else:
+            print("invalid. do it right child")
 def main():
 
     user_choice = int(input("Enter your choice (1 for rock, 2 for paper, 3 for scissors): "))
